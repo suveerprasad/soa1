@@ -39,13 +39,13 @@
 ### Run Manually
 1.
     ```bash
-        cd server
-        npm run dev
+    cd server
+    npm run dev
     ```
 2.
     ```bash
-        cd client
-        npm run dev
+    cd client
+    npm run dev
     ```
 
 ### Docker Build/Run Issues
@@ -53,12 +53,13 @@
 1. Clean up existing containers:
 
     ```bash
-        docker rm -f products-service
-        Rebuild the image:
+    docker rm -f products-service
     ```
+    
+2. Rebuild the image:
 
     ```bash
-        docker build --no-cache -t soa-products-service ./server
+    docker build --no-cache -t soa-products-service ./server
     ```
 
 ### Swagger UI is available at:
