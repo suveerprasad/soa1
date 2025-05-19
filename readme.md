@@ -37,12 +37,12 @@
     ```
 
 ### Run Manually
-
+1.
     ```bash
         cd server
         npm run dev
     ```
-
+2.
     ```bash
         cd client
         npm run dev
